@@ -1,0 +1,5 @@
+<!--pages/mid2/mid2.wxml-->
+<text>pages/mid2/mid2.wxml</text>
+
+<button bindtap='ChangeToCommit'>提交</button>
+<button bindtap='ChangeToAllocate'>分配任务</button>

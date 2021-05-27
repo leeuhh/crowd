@@ -1,0 +1,20 @@
+<view class="pages">
+
+
+  <text class="number" hidden="{{number==0?true:false}}">{{number}}</text>
+  
+  <view class="content">
+
+  <view class="add_address">
+    <text class="text_address">地点：</text>
+    <input bindinput="setAddress" class="input_address" placeholder="请输入地点"></input>
+  </view>
+
+  <image bindtap="tap" class="add_photo" src="../../images/adds.png"></image>
+</view>
+
+<image bindtap="showimage" class="currentimage" mode='aspectFill' src="{{imagepath}}"></image>
+
+<button bindtap="tosubmit" >提交</button>
+
+</view>

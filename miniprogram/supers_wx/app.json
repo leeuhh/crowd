@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/mid1/mid1",
+    "pages/mid2/mid2",
+    "pages/me/me",
+    "pages/people/people",
+    "pages/file/file",
+    "pages/room/room",
+    "pages/commit/commit",
+    "pages/allocate/allocate",
+    "pages/test/test"
+
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffcc00",
+    "navigationBarTitleText": "人员流量密度监测",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#000",
+    "list": [{
+      "pagePath": "pages/login/login", 
+      "text": "登录"
+    },
+    {
+      "pagePath": "pages/test/test", 
+      "text": "上传图片"
+    },
+    {
+      "pagePath": "pages/commit/commit", 
+      "text": "commit"
+    },
+    {
+      "pagePath": "pages/mid1/mid1", 
+      "text": "人流量"
+    },
+    {
+      "pagePath": "pages/mid2/mid2",
+      "text": "任务"
+    }
+  ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

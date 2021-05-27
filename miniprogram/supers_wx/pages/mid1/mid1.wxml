@@ -1,0 +1,6 @@
+<!--pages/mid1/mid1.wxml-->
+<text>pages/mid1/mid1.wxml</text>
+
+<button bindtap='ChangeToPeople'>查询人数</button>
+<button bindtap='ChangeToRoom'>查询空闲教室</button>
+<button bindtap='ChangeToFile'>查询教室征用通知</button>

@@ -1,0 +1,141 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.7.0",
+  "appid": "wx9724d19532958326",
+  "projectname": "crowd",
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "pages/function/paper/papershowall/papershowall",
+          "pathName": "pages/function/paper/papershowall/papershowall",
+          "query": "currentId=2",
+          "scene": null
+        },
+        {
+          "id": 1,
+          "name": "pages/function/paper/paperclass/paperclass",
+          "pathName": "pages/function/paper/paperclass/paperclass",
+          "query": "id=358",
+          "scene": null
+        },
+        {
+          "id": 2,
+          "name": "my",
+          "pathName": "pages/fun/push/push",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "my",
+          "pathName": "pages/fun/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 4,
+          "name": "pages/my/knowhow/knowhow",
+          "pathName": "pages/my/knowhow/knowhow",
+          "query": "itemid=212",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "index",
+          "pathName": "pages/star/star",
+          "query": "itemid=212",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "index",
+          "pathName": "pages/star/star",
+          "query": "itemid=212",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/function/meat/meat",
+          "pathName": "pages/function/meat/meat",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "meeting",
+          "pathName": "pages/meeting/meeting",
+          "query": "currentId=2",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "work",
+          "pathName": "pages/work/work",
+          "query": "currentId=2",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

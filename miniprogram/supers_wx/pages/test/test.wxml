@@ -1,0 +1,23 @@
+<!--pages/test/test.wxml-->
+<text>pages/test/test.wxml</text>
+
+<!-- <van-button type="warning" bindtap='uploadImgHandle'>上传图片</van-button>
+<view>
+ 	<block wx:for="{{tempImg}}" wx:key="{{index}}tmpimg">
+	 	<image src='{{item}}' mode='aspectFill'></image>
+	</block>
+</view>
+<van-button type="primary" bindtap='submit'>提交</van-button> -->
+
+
+<!-- <Select prop-array='{{selectArray}}'></Select> -->
+<Select prop-array='{{selectArray}}' bind:myget='getDate'></Select>
+
+
+<button type="warning" bindtap='uploadImgHandle'>上传图片</button>
+<view>
+ 	<block wx:for="{{tempImg}}" wx:key="{{index}}tmpimg">
+	 	<image src='{{item}}' mode='aspectFill'></image>
+	</block>
+</view>
+<button type="primary" bindtap='submit'>提交</button>
